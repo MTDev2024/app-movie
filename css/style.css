@@ -1,0 +1,15 @@
+*, ::before ,::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/assets/body-bg.webp');
+    background-size: cover;  /* Pour que l'image couvre tout l'écran */
+    background-position: center;  /* Pour centrer l'image */
+    background-repeat: no-repeat;  /* Évite que l'image se répète */
+    height: 100vh;  /* Définit la hauteur de l'écran */
+    margin: 0;
+    padding: 0;
+}
