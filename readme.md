@@ -1,1 +1,1 @@
-![Aperçu du projet](./images/screenshot.jpeg)
+![Aperçu du projet](./images/screenshot.jpg)
