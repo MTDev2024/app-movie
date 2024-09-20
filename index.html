@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoviePulse</title>
+    <title>MovieApp</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/logo.png" type="image/png">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo"></div>
-            <input type="text" placeholder="Search a movie" value="The Dark Knight">
-            <button>Search</button>
+            <div class="logo">
+                <img src="./assets/logo.png" alt="Logo">
+            </div>
+            <div class="search">
+            <input type="text" id="movie-title" placeholder="Search a movie" value="The Dark Knight">
+            <button id="search-btn">Search</button>
+            </div>
         </nav>
     </header>
 
+    <div id="search-result"></div>
 
 
 
 
     <script src="./js/app.js"></script>
+    <script src="./js/key.js"></script>
 </body>
 </html>
